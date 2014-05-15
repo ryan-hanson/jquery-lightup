@@ -1,0 +1,53 @@
+div.lightup[rel="sharp"] div.box{
+background-color:#dcdcdc;
+}
+
+div.lightup[rel="sharp"] div.box div.heading{
+position:relative;
+height:30px;
+background-color:#262626;
+}
+
+div.lightup[rel="sharp"] div.box div.heading h4{
+color:#fff;
+font-size:9pt;
+margin-left:5px;
+}
+
+div.lightup[rel="sharp"] div.box div.heading div.content{
+height:100%;
+}
+
+div.lightup[rel="sharp"] div.box div.main{
+position:relative;
+}
+
+div.lightup[rel="sharp"] div.box div.close{
+position:absolute;
+text-indent:-9999px;
+}
+
+div#lightup div.box div.footer div.content a.button{
+float:right;
+margin-top:13px;
+margin-right:5px;
+height:19px;
+padding:4px 11px;
+background-color:#f3f3f3;
+position:inline;
+font-size:9pt;
+color:#444;
+border:1px solid #ccc;
+border-radius:2px;
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+text-decoration:none;
+cursor:pointer;
+}
+
+div#lightup div.box div.footer div.content a.button:hover{
+background-color:#f7f7f7;
+border:1px solid #bababa;
+text-decoration:none;
+}
+

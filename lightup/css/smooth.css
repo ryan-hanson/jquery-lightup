@@ -1,0 +1,107 @@
+div.lightup[rel="smooth"] div.box table.holder{
+border-collapse:collapse;
+border-spacing:0;
+}
+
+div.lightup[rel="smooth"] div.box table td{
+padding:0;
+}
+
+div.lightup[rel="smooth"] div.box td.border{
+width:13px;
+}
+
+div.lightup[rel="smooth"] div.box tr.heading{
+height:38px;
+}
+
+div.lightup[rel="smooth"] div.box tr.heading td.left{
+background-image:url('../images/smooth/black_heading_left.png');
+background-repeat:no-repeat;
+}
+
+div.lightup[rel="smooth"] div.box tr.heading td.content{
+background-image:url('../images/smooth/black_heading_middle.png');
+background-repeat:repeat-x;
+font-family:arial;
+color:#fff;
+font-size:9pt;
+color:#fff;
+padding-top:5px;
+padding-left:10px;
+}
+
+div.lightup[rel="smooth"] div.box tr.heading td.right{
+background-image:url('../images/smooth/black_heading_right.png');
+background-repeat:no-repeat;
+}
+
+/*** Main content block ***/
+
+div.lightup[rel="smooth"] div.box tr.main td.left{
+background-image:url('../images/smooth/main_shadow_left.png');
+background-repeat:repeat-y;
+}
+
+div.lightup[rel="smooth"] div.box tr.main td.content{
+background-color:#fff;
+}
+
+div.lightup[rel="smooth"] div.box tr.main td.right{
+background-image:url('../images/smooth/main_shadow_right.png');
+background-repeat:repeat-y;
+}
+
+/*** Footer of the popup ***/
+
+div.lightup[rel="smooth"] div.box tr.footer{
+height:63px;
+}
+
+div.lightup[rel="smooth"] div.box tr.footer td.left{
+background-image:url('../images/smooth/gray_footer_left.png');
+background-repeat:no-repeat;
+}
+
+div.lightup[rel="smooth"] div.box tr.footer td.content{
+background-image:url('../images/smooth/gray_footer_middle.png');
+background-repeat:repeat-x;
+}
+
+div.lightup[rel="smooth"] div.box tr.footer td.right{
+background-image:url('../images/smooth/gray_footer_right.png');
+background-repeat:no-repeat;
+}
+
+/*** Close Button ***/
+div.lightup[rel="smooth"] div.box div.close{
+position:absolute;
+text-indent:-9999px;
+}
+
+/** Button style **/
+div.lightup[rel="smooth"] div.box tr.footer td.content a.button{
+font-family:arial;
+font-size:10pt;
+display:block;
+height:auto;
+padding:6px 13px;
+width:auto;
+float:right;
+margin-right:10px;
+background-color:#f3f3f3;
+font-size:9pt;
+color:#444;
+border:1px solid #ccc;
+border-radius:2px;
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+text-decoration:none;
+cursor:pointer;
+}
+
+div.lightup[rel="smooth"] div.box tr.footer td.content a.button:hover{
+background-color:#f7f7f7;
+border:1px solid #bababa;
+text-decoration:none;
+}
